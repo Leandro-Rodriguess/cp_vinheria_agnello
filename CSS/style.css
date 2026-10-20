@@ -1,3 +1,8 @@
+
+@import url("efeitos.css");
+
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f0e8;
@@ -67,3 +72,5 @@ footer{
 text-align: center;
 padding: 10px;
 }
+
+@import url("efeitos.css");
