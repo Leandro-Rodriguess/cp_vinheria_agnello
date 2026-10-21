@@ -123,3 +123,42 @@ footer a:hover::after {
 .pagina-vinhos .produto h3::before {
     content: "🍷 ";
 }
+
+.pagina-vinhos .produto h3::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #5c1627;
+    margin-top: 5px;
+}
+
+.pagina-vinhos #vinhos img {
+    transition: transform 0.3s;
+}
+
+.pagina-vinhos #vinhos img:hover {
+    transform: scale(1.03);
+}
+
+.pagina-vinhos .produto {
+    transition: transform 0.3s;
+}
+
+.pagina-vinhos .produto:hover {
+    transform: translateY(-5px);
+}
+
+.pagina-vinhos main {
+    animation: aparecerVinhos 1s;
+}
+
+@keyframes aparecerVinhos {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
