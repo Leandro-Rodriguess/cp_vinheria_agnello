@@ -224,3 +224,13 @@ footer a::after {
 footer a:hover::after {
     width: 100%;
 }
+
+section {
+    box-shadow: 0 4px 12px rgba(92, 22, 39, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 6px 16px rgba(92, 22, 39, 0.13);
+    transform: translateY(-2px);
+}
