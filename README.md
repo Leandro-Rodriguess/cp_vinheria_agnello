@@ -61,13 +61,12 @@ img/ — contém as imagens utilizadas no projeto.
 
 ## Links
 
-- [Repositório no GitHub]  https://github.com/Leandro-Rodriguess/cp1-front-end-fiap.git
+- [Repositório no GitHub](https://github.com/Leandro-Rodriguess/cp_vinheria_agnello)
 - [Wine Spectator](https://www.winespectator.com/)
-- ## Projeto publicado
 
-O projeto está disponível online através do GitHub Pages.
+## Projeto publicado
 
-[Acessar o site] https://leandro-rodriguess.github.io/cp1-front-end-fiap/
+[Acesse o site da Vinheria Agnello](https://leandro-rodriguess.github.io/cp_vinheria_agnello/)
 
 ## Objetivo acadêmico
 
@@ -79,11 +78,8 @@ Este projeto foi desenvolvido no **1º semestre da FIAP**, como parte do **CP1**
 
 **Eduardo Miranda Mororo**
 
-**Lucca Neufeld Vecchiatti**
-
 **Victor krause Esteves**
 
 **Henrrique Nascimento**
-
 
 FIAP — CP1 | 2026
