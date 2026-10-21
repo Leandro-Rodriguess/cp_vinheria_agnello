@@ -101,3 +101,25 @@ footer a::after {
 footer a:hover::after {
     width: 100%;
 }
+
+/* efeitos Mororo */
+
+.pagina-vinhos nav a {
+    transition: color 0.9s;
+}
+
+.pagina-vinhos nav a:hover {
+    color: #e7bd72;
+}
+
+.pagina-vinhos nav a:focus {
+    outline: 2px solid #e7bd72;
+}
+
+.pagina-vinhos nav li:first-child {
+    border-bottom: 2px solid #e7bd72;
+}
+
+.pagina-vinhos .produto h3::before {
+    content: "🍷 ";
+}
