@@ -63,6 +63,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
+    border-color: #2e0606;
 }
 
 /* Estilização da tabela | th, td */
@@ -80,7 +82,7 @@ th, td {
 
 th {
     background-color: #5c1627;
-    color: rgb(32, 23, 23);
+    color: rgb(58, 27, 27);
 }
 
 /* Dimensionamento e posição do link do YouTube */
@@ -90,6 +92,7 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
 }
 
 /* Estilização do footer */
@@ -161,8 +164,8 @@ footer {
     transition: background-color 0.3s ease;
 }
  
-.pagina-armazenamento th:hover {
-    background-color: #80173f;
+.pagina-armazenamento th:hover  {
+    background-color: #2e0606;
 }
  
 .pagina-armazenamento td {
@@ -187,7 +190,7 @@ footer {
     transform: translateY(-2px);
 }
  
-/* Linha animada nos links do rodapé */
+
 .pagina-armazenamento footer a::after {
     content: "";
     display: block;
@@ -202,7 +205,7 @@ footer {
     width: 100%;
 }
  
-/* Animação de entrada do conteúdo */
+
 .pagina-armazenamento main {
     animation: aparecerArmazenamento 1s ease;
 }
@@ -216,3 +219,17 @@ footer {
         opacity: 1;
     }
 }
+
+/* Efeito de aumento nos títulos ao passar o mouse */
+
+.pagina-armazenamento h1,
+.pagina-armazenamento h2 {
+    transition: transform 0.3s ease;
+    transform-origin: left center;
+}
+
+.pagina-armazenamento h1:hover,
+.pagina-armazenamento h2:hover {
+    transform: scale(1.08);
+}
+
