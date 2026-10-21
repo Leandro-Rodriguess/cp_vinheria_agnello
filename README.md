@@ -82,4 +82,4 @@ Este projeto foi desenvolvido no **1º semestre da FIAP**, como parte do **CP1**
 
 **Henrrique Nascimento**
 
-FIAP — CP1 | 2026
+FIAP — CP2 | 2026
