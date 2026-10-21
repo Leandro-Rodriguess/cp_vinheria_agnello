@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f0e8;
@@ -18,13 +19,62 @@ nav ul {
 }
 
 nav li {
-    display: inline; 
+    display: inline;
     margin: 10px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Efeito nos links do menu */
+nav a:hover {
+    background-color: #f5f0e8;
+    color: #5c1627;
+    transform: translateY(-3px);
+}
+
+nav a:focus-visible {
+    outline: 2px solid #e7bd72;
+    outline-offset: 3px;
+}
+
+/* Animação do título */
+header h1 {
+    animation: entradaTitulo 1.5s ease-out;
+}
+
+@keyframes entradaTitulo {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Linha decorativa no título */
+header h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin: 10px auto 0;
+    background-color: #e7bd72;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+header h1:hover::after {
+    width: 120px;
 }
 
 main {
@@ -36,20 +86,33 @@ section {
     background-color: white;
     padding: 20px;
     margin: 20px 0;
+    border-radius: 5px;
 }
 
 h2 {
     color: #5c1627;
 }
 
+/* Taça antes dos títulos */
+section h2::before {
+    content: "🍷 ";
+}
+
 img {
     width: 500px;
     max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+/* Pequeno efeito na imagem */
+img:hover {
+    transform: scale(1.02);
 }
 
 table {
     width: 100%;
-    
+    border-collapse: collapse;
 }
 
 th,
@@ -62,12 +125,43 @@ td {
 th {
     background-color: #5c1627;
     color: white;
+    transition: background-color 0.3s ease;
 }
 
+/* Efeito no cabeçalho da tabela */
+th:hover {
+    background-color: #80173f;
+}
+
+td {
+    transition: background-color 0.3s ease;
+}
+
+/* Alternância de cores nas linhas */
+tr:nth-child(even) td {
+    background-color: #f5f0e8;
+}
+
+/* Destaque ao passar o mouse */
+tr:hover td {
+    background-color: #ead6d9;
+}
+
+/* Campos do formulário */
 input,
 textarea {
     width: 90%;
     padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+/* Efeito ao clicar nos campos */
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #80173f;
 }
 
 textarea {
@@ -79,6 +173,22 @@ button {
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito no botão */
+button:hover {
+    background-color: #80173f;
+}
+
+main a {
+    transition: color 0.3s ease;
+}
+
+main a:hover {
+    color: #80173f;
 }
 
 footer {
@@ -86,4 +196,31 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+footer a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito no link do rodapé */
+footer a:hover {
+    color: #e7bd72;
+    transform: translateY(-2px);
+}
+
+footer a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    margin-top: 3px;
+    background-color: #e7bd72;
+    transition: width 0.3s ease;
+}
+
+footer a:hover::after {
+    width: 100%;
 }
