@@ -70,7 +70,7 @@ img/ — contém as imagens utilizadas no projeto.
 
 ## Objetivo acadêmico
 
-Este projeto foi desenvolvido no **1º semestre da FIAP**, como parte do **CP1**, colocando em prática os conhecimentos apresentados durante as aulas.
+Este projeto foi desenvolvido no **1º semestre da FIAP**, como parte do **CP2**, colocando em prática os conhecimentos apresentados durante as aulas.
 
 ## Autores
 
