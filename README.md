@@ -74,8 +74,6 @@ Os efeitos da página de Vinhos estão definidos no arquivo `CSS/efeitos.css`, c
 
 [Acesse o site da Vinheria Agnello](https://leandro-rodriguess.github.io/cp_vinheria_agnello/)
 
-[Acesse a página de Vinhos](https://leandro-rodriguess.github.io/cp_vinheria_agnello/pages/vinhos.html)
-
 ## Objetivo acadêmico
 
 Este projeto foi desenvolvido no **1º semestre da FIAP**, como parte do **CP2**, com foco na aplicação de pseudo-classes, pseudo-elementos, animações, transições e transformações em CSS.
